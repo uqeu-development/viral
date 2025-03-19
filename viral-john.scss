@@ -4,6 +4,14 @@ Created by John Wong Cheuk Bun(john.wong@uniqlo.eu)
 Last Updated: 2025-03-18
 */
 
+//Desktop Grids
+.desktop-grid {
+	@media screen and (min-width: 768px) {
+		display: block;
+	}
+	display: none;
+}
+
 .tiktok-grid {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
@@ -11,6 +19,7 @@ Last Updated: 2025-03-18
 	padding: 20px;
 	margin: 20px 0;
 }
+
 .tiktok-video {
 	width: 100%;
 	aspect-ratio: 9/16;
@@ -18,6 +27,7 @@ Last Updated: 2025-03-18
 	overflow: hidden;
 	background: #000;
 }
+
 .tiktok-video iframe {
 	position: absolute;
 	top: 0;
@@ -25,13 +35,74 @@ Last Updated: 2025-03-18
 	width: 100%;
 	height: 100%;
 }
+
 @media (max-width: 768px) {
 	.tiktok-grid {
 		grid-template-columns: 1fr;
 	}
 }
+
 #lifewear .lifewear-logo {
 	max-width: 90px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.mobile-grid {
+	@media screen and (max-width: 768px) {
+		display: block;
+	}
+	display: none;
+}
+
+// Swiper Styles
+.swiper-parent {
+	position: relative;
+	width: 100%;
+	padding: 20px 0;
+}
+
+.swiper-container {
+	width: 100%;
+	height: 100%;
+}
+
+.swiper-slide {
+	width: 100%;
+	height: 100%;
+}
+
+// Navigation buttons
+.swiper-button-next,
+.swiper-button-prev {
+	color: #fff;
+	background: rgba(0, 0, 0, 0.5);
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+
+	&:after {
+		font-size: 20px;
+	}
+
+	&:hover {
+		background: rgba(0, 0, 0, 0.8);
+	}
+}
+
+// Pagination
+.swiper-pagination {
+	position: relative;
+	margin-top: 20px;
+
+	.swiper-pagination-bullet {
+		width: 10px;
+		height: 10px;
+		background: #000;
+		opacity: 0.5;
+
+		&-active {
+			opacity: 1;
+		}
+	}
 }

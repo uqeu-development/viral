@@ -1,42 +1,123 @@
-<div class="tiktok-grid">
-	<div class="tiktok-video">
-		<iframe
-			src="https://www.tiktok.com/player/v1/{{vid1}}?autoplay=1&mute=1&loop=1&play_button=0&volume_control=1&progress_bar=0&timestamp=0&fullscreen_button=0&description=0&rel=0"
-			allow="autoplay; encrypted-media"
-			allowfullscreen
-			style="width: 100%; height: 100%; border: none"
-			scrolling="no"
-			loading="lazy">
-		</iframe>
-	</div>
-	<div class="tiktok-video">
-		<iframe
-			src="https://www.tiktok.com/player/v1/{{vid2}}?autoplay=1&mute=1&loop=1&play_button=0&volume_control=1&progress_bar=0&timestamp=0&fullscreen_button=0&description=0&rel=0"
-			allow="autoplay; encrypted-media"
-			allowfullscreen
-			style="width: 100%; height: 100%; border: none"
-			scrolling="no"
-			loading="lazy">
-		</iframe>
-	</div>
-	<div class="tiktok-video">
-		<iframe
-			src="https://www.tiktok.com/player/v1/{{vid3}}?autoplay=1&mute=1&loop=1&play_button=0&volume_control=1&progress_bar=0&timestamp=0&fullscreen_button=0&description=0&rel=0"
-			allow="autoplay; encrypted-media"
-			allowfullscreen
-			style="width: 100%; height: 100%; border: none"
-			scrolling="no"
-			loading="lazy">
-		</iframe>
-	</div>
-	<div class="tiktok-video">
-		<iframe
-			src="https://www.tiktok.com/player/v1/{{vid4}}?autoplay=1&mute=1&loop=1&play_button=0&volume_control=1&progress_bar=0&timestamp=0&fullscreen_button=0&description=0&rel=0"
-			allow="autoplay; encrypted-media"
-			allowfullscreen
-			style="width: 100%; height: 100%; border: none"
-			scrolling="no"
-			loading="lazy">
-		</iframe>
+<!-- Desktop Grid -->
+<div class="desktop-grid">
+	<div class="tiktok-grid">
+		<div class="tiktok-video">
+			<iframe
+				src="https://www.tiktok.com/player/v1/{{vid1}}?autoplay=1&mute=1&loop=1&play_button=0&volume_control=1&progress_bar=0&timestamp=0&fullscreen_button=0&description=1&rel=0"
+				allow="autoplay; encrypted-media"
+				allowfullscreen
+				style="width: 100%; height: 100%; border: none"
+				scrolling="no"
+				loading="lazy">
+			</iframe>
+		</div>
+		<div class="tiktok-video">
+			<iframe
+				src="https://www.tiktok.com/player/v1/{{vid2}}?autoplay=0&mute=1&loop=1&play_button=1&volume_control=1&progress_bar=0&timestamp=0&fullscreen_button=0&description=1&rel=0"
+				allow="autoplay; encrypted-media"
+				allowfullscreen
+				style="width: 100%; height: 100%; border: none"
+				scrolling="no"
+				loading="lazy">
+			</iframe>
+		</div>
+		<div class="tiktok-video">
+			<iframe
+				src="https://www.tiktok.com/player/v1/{{vid3}}?autoplay=0&mute=1&loop=1&play_button=1&volume_control=1&progress_bar=0&timestamp=0&fullscreen_button=0&description=1&rel=0"
+				allow="autoplay; encrypted-media"
+				allowfullscreen
+				style="width: 100%; height: 100%; border: none"
+				scrolling="no"
+				loading="lazy">
+			</iframe>
+		</div>
+		<div class="tiktok-video">
+			<iframe
+				src="https://www.tiktok.com/player/v1/{{vid4}}?autoplay=0&mute=1&loop=1&play_button=1&volume_control=1&progress_bar=0&timestamp=0&fullscreen_button=0&description=1&rel=0"
+				allow="autoplay; encrypted-media"
+				allowfullscreen
+				style="width: 100%; height: 100%; border: none"
+				scrolling="no"
+				loading="lazy">
+			</iframe>
+		</div>
 	</div>
 </div>
+
+<!-- Mobile Grid -->
+<div class="mobile-grid fr-sp-py-m">
+	<div
+		class="splide"
+		role="group"
+		aria-label="TikTok Videos">
+		<div class="splide__track">
+			<ul class="splide__list">
+				<li class="splide__slide">
+					<div class="tiktok-video">
+						<iframe
+							src="https://www.tiktok.com/player/v1/{{vid1}}?autoplay=1&mute=1&loop=1&play_button=0&volume_control=1&progress_bar=0&timestamp=0&fullscreen_button=0&description=1&rel=0"
+							allow="autoplay; encrypted-media"
+							allowfullscreen
+							style="width: 100%; height: 100%; border: none"
+							scrolling="no"
+							loading="lazy">
+						</iframe>
+					</div>
+				</li>
+				<li class="splide__slide">
+					<div class="tiktok-video">
+						<iframe
+							src="https://www.tiktok.com/player/v1/{{vid2}}?autoplay=0&mute=1&loop=1&play_button=1&volume_control=1&progress_bar=0&timestamp=0&fullscreen_button=0&description=1&rel=0"
+							allow="autoplay; encrypted-media"
+							allowfullscreen
+							style="width: 100%; height: 100%; border: none"
+							scrolling="no"
+							loading="lazy">
+						</iframe>
+					</div>
+				</li>
+				<li class="splide__slide">
+					<div class="tiktok-video">
+						<iframe
+							src="https://www.tiktok.com/player/v1/{{vid3}}?autoplay=0&mute=1&loop=1&play_button=1&volume_control=1&progress_bar=0&timestamp=0&fullscreen_button=0&description=1&rel=0"
+							allow="autoplay; encrypted-media"
+							allowfullscreen
+							style="width: 100%; height: 100%; border: none"
+							scrolling="no"
+							loading="lazy">
+						</iframe>
+					</div>
+				</li>
+				<li class="splide__slide">
+					<div class="tiktok-video">
+						<iframe
+							src="https://www.tiktok.com/player/v1/{{vid4}}?autoplay=0&mute=1&loop=1&play_button=1&volume_control=1&progress_bar=0&timestamp=0&fullscreen_button=0&description=1&rel=0"
+							allow="autoplay; encrypted-media"
+							allowfullscreen
+							style="width: 100%; height: 100%; border: none"
+							scrolling="no"
+							loading="lazy">
+						</iframe>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<link
+	rel="stylesheet"
+	href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+
+<script>
+	document.addEventListener("DOMContentLoaded", function () {
+		new Splide(".splide", {
+			type: "loop",
+			speed: 600,
+			pagination: true,
+			arrows: true,
+			autoplay: false,
+		}).mount();
+	});
+</script>

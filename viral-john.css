@@ -3,6 +3,15 @@ Tiktok Viral Page for UNIQLO
 Created by John Wong Cheuk Bun(john.wong@uniqlo.eu)
 Last Updated: 2025-03-18
 */
+.desktop-grid {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .desktop-grid {
+    display: block;
+  }
+}
+
 .tiktok-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -36,4 +45,60 @@ Last Updated: 2025-03-18
   max-width: 90px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.mobile-grid {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .mobile-grid {
+    display: block;
+  }
+}
+
+.swiper-parent {
+  position: relative;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 20px;
+}
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.swiper-pagination {
+  position: relative;
+  margin-top: 20px;
+}
+.swiper-pagination .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background: #000;
+  opacity: 0.5;
+}
+.swiper-pagination .swiper-pagination-bullet-active {
+  opacity: 1;
 }/*# sourceMappingURL=viral-john.css.map */
