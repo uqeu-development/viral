@@ -1,0 +1,39 @@
+/* 
+Tiktok Viral Page for UNIQLO
+Created by John Wong Cheuk Bun(john.wong@uniqlo.eu)
+Last Updated: 2025-03-18
+*/
+.tiktok-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.tiktok-video {
+  width: 100%;
+  aspect-ratio: 9/16;
+  position: relative;
+  overflow: hidden;
+  background: #000;
+}
+
+.tiktok-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .tiktok-grid {
+    grid-template-columns: 1fr;
+  }
+}
+#lifewear .lifewear-logo {
+  max-width: 90px;
+  margin-left: auto;
+  margin-right: auto;
+}/*# sourceMappingURL=viral-john.css.map */
