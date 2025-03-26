@@ -12,6 +12,12 @@ Last Updated: 2025-03-18
 	display: none;
 }
 
+.social-links li {
+	display: inline !important;
+	margin-left: 1em;
+	margin-top: 1em;
+}
+
 .tiktok-grid {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);

@@ -90,6 +90,9 @@
 		<link
 			rel="stylesheet"
 			href="https://www.uniqlo.com/eu/en/special-feature/css/john/viral-john.css" />
+		<!-- <link
+			rel="stylesheet"
+			href="/viral-john.css" /> -->
 
 		<!--#include virtual="/snippet/uq/jp/ja/fr-head-script" -->
 		<!--#include virtual="/snippet/uq/jp/ja/fr-googleTagManagerResponsiveCategory-1-1-0" -->
@@ -99,11 +102,6 @@
 		<link
 			rel="stylesheet"
 			href="https://www.uniqlo.com/eu/en/special-feature/css/john/ariakedesign/css-1.2.0.css" />
-		<script src="https://www.uniqlo.com/eu/en/special-feature/js/john/ariakedesign/stylehint-1-7-2.js"></script>
-		<link
-			rel="stylesheet"
-			href="https://www.uniqlo.com/eu/en/special-feature/css/john/ariakedesign/ss25-work-style-v4.css"
-			media="all" />
 	</head>
 	<body
 		class="js-trackEventScroll"
@@ -147,6 +145,30 @@
 
 					<!-- TikTok Video Embed -->
 					<!--#include virtual="/snippet/uq/eu/en/viral-john-tiktok" -->
+					<div class="social-links">
+						<ul class="social-links">
+							<li>
+								<a
+									href="https://www.tiktok.com/@uniqloeurope"
+									tabindex="0"
+									><img
+										class="fr-ec-link-image__image"
+										src="https://asset.uniqlo.com/g/icons/tiktok.svg"
+										alt="tiktok"
+								/></a>
+							</li>
+							<li>
+								<a
+									href="https://www.instagram.com/uniqloeurope"
+									tabindex="0"
+									><img
+										class="fr-ec-link-image__image"
+										src="https://asset.uniqlo.com/g/icons/instagram_v2.svg"
+										alt="instagram"
+								/></a>
+							</li>
+						</ul>
+					</div>
 
 					<!-- Product Grid - products are pull from snippets-->
 					<h2 class="fr-heading -h2 fr-sp-px-1g fr-sp-py-l fr-pc-my-l">
@@ -343,16 +365,16 @@
 						"@type": "ListItem",
 						"position": 1,
 						"item": {
-							"@id": "https://www.uniqlo.com/jp/ja/women",
-							"name": "Women"
+							"@id": "https://www.uniqlo.com/<!--#echo var='eucode' -->/<!--#echo var='language' -->/home",
+							"name": "Home"
 						}
 					},
 					{
 						"@type": "ListItem",
 						"position": 2,
 						"item": {
-							"@id": "https://www.uniqlo.com/us/en/special-feature/work/women",
-							"name": "UNIQLO at WORK"
+							"@id": "https://www.uniqlo.com/us/en/special-feature/viral",
+							"name": "Viral Favorite"
 						}
 					}
 				]
