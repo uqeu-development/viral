@@ -112,3 +112,11 @@ Last Updated: 2025-03-18
 		}
 	}
 }
+
+@media screen and (min-width: 813px) {
+	[data-component-type="ProductCarouselDestroy"] .fr-bff-product {
+		margin-top: 28px;
+		margin-top: var(--pc-v-l);
+		width: 25% !important;
+	}
+}
